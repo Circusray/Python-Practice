@@ -11,6 +11,9 @@ class GeometricalShapes :
         self.center_point = [0,0]
         print('center_point:', self.center_point)
         
+    def side(self, num):
+        self.num = num
+        print('side:', self.num)
  
 
 class Rectangle(GeometricalShapes):
@@ -37,7 +40,9 @@ if __name__ == "__main__":
     myRectangle = Rectangle(3,5)
     myRectangle.getArea()
     myRectangle.center_point()
+    myRectangle.side(4)
     
     myCircle = Circle(3)
     myCircle.getArea()
     myCircle.center_point()
+    myCircle.side(1)

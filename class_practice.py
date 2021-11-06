@@ -45,4 +45,4 @@ if __name__ == "__main__":
     myCircle = Circle(3)
     myCircle.getArea()
     myCircle.center_point()
-    myCircle.side(1)
+    myCircle.side(0)
